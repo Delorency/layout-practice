@@ -225,12 +225,12 @@
 }
 
 .giantFacts span {
-  background: rgba(192, 132, 252, 0.1); /* Фиолетовый фон */
-  color: #fbbf24; /* Золотистый текст */
+  background: rgba(192, 132, 252, 0.1);
+  color: #fbbf24;
   font-size: 13px;
   padding: 6px 12px;
   border-radius: 12px;
-  border: 1px solid rgba(192, 132, 252, 0.2); /* Фиолетовая обводка */
+  border: 1px solid rgba(192, 132, 252, 0.2);
 }
 
 @media (max-width: 900px) {
@@ -251,6 +251,14 @@
   .giantsGrid {
     grid-template-columns: 1fr;
   }
+  
+  .container {
+    padding: 60px 20px;
+  }
+  
+  .header {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -259,4 +267,12 @@
   .imageBox { width: 80%; }
   .giantCard { padding: 25px; }
   .giantImage { height: 180px; }
+
+  .container {
+    padding: 40px 15px;
+  }
+  
+  .header {
+    margin-bottom: 40px;
+  }
 }

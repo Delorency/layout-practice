@@ -178,6 +178,10 @@
   .title { font-size: 48px; }
   .contentSection { grid-template-columns: 1fr; gap: 40px; }
   .cardsGrid { grid-template-columns: 1fr; }
+  
+  .container {
+    padding: 60px 20px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -185,4 +189,8 @@
   .lead { font-size: 17px; }
   .sectionTitle { font-size: 32px; }
   .cardContent { padding: 20px; }
+  
+  .container {
+    padding: 40px 15px;
+  }
 }

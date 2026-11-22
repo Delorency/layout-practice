@@ -295,6 +295,10 @@
   .timelineItem dt { flex: none; }
   .sectionHeadingSplit { flex-direction: column; align-items: flex-start; gap: 20px; }
   .note { padding: 40px 20px; margin: 0 20px 80px; }
+  
+  .hero {
+    padding: 100px 20px; 
+  }
 }
 
 @media (max-width: 600px) {
@@ -304,4 +308,9 @@
   .sectionTitle { font-size: 32px; }
   .ctaSection { padding: 40px 20px; margin: 0 20px 60px; }
   .ctaTitle { font-size: 28px; }
+  
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
