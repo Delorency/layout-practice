@@ -1,0 +1,1 @@
+export { Task2Page } from './ui/Task2Page';

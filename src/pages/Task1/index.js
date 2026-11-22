@@ -1,0 +1,1 @@
+export { Task1Page } from './ui/Task1Page';

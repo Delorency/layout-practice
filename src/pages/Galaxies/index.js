@@ -1,0 +1,1 @@
+export { GalaxiesPage } from './ui/GalaxiesPage';
