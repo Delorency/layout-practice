@@ -238,7 +238,6 @@
   .terrestrialItem, 
   .terrestrialItem.reverse {
     flex-direction: column;
-    text-align: center;
     gap: 30px;
   }
   .imageBox {

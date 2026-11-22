@@ -296,6 +296,10 @@
   .sectionHeadingSplit { flex-direction: column; align-items: flex-start; gap: 20px; }
   .note { padding: 40px 20px; margin: 0 20px 80px; }
   
+  .sectionHeading {
+    text-align: left;
+  }
+  
   .hero {
     padding: 100px 20px; 
   }
