@@ -20,23 +20,34 @@
 }
 
 .logoPeak {
-  width: 24px;
-  height: 24px;
-  background-color: #c084fc;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #fbbf24;
   border-radius: 50%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoPeak::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #c084fc;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(192, 132, 252, 0.8);
 }
 
 .logoPeak::after {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 44px;
+  width: 36px;
   height: 12px;
-  border: 2px solid #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.5);
   border-radius: 50%;
-  transform: translate(-50%, -50%) rotate(-20deg);
+  transform: rotate(-30deg);
 }
 
 .logoText {
@@ -45,6 +56,7 @@
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -108,11 +120,15 @@
     font-size: 18px;
   }
   .logoPeak {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
+  }
+  .logoPeak::before {
+    width: 8px;
+    height: 8px;
   }
   .logoPeak::after {
-    width: 32px;
-    height: 8px;
+    width: 28px;
+    height: 10px;
   }
 }
