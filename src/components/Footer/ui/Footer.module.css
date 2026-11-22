@@ -71,7 +71,7 @@
 }
 
 .links a:hover {
-  color: #fbbf24; /* Золотистый при наведении */
+  color: #fbbf24;
 }
 
 .copy {
@@ -82,14 +82,21 @@
 
 @media (max-width: 900px) {
   .footerInner {
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     gap: 15px;
-    padding: 25px 20px;
+    padding: 25px 15px;
+  }
+  
+  .links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 15px;
   }
   
   .copy {
     text-align: center;
+    font-size: 12px;
   }
 }
